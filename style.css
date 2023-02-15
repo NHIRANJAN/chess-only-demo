@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+@media (min-width:480px) {    
+
+body{
+    background-color: bisque;
+    
+}
+
+
+.div1{ 
+    
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    background-color: rgb(255, 255, 255);
+  
+    
+}
+.div2{
+    background-color: rgb(0, 0, 0);
+    /* width:7.75vw;
+    height:7.75vh; */
+    
+}
+.img1{
+    width: 100%;
+    height: 100%;
+}
+
+.img3{
+    /* margin: auto;
+   align-items: center;
+   align-content: center;
+   width:5.75vw;
+   height: 5.75vw;
+   margin-left: 0vw; */
+   /* border: 3px solid; */
+   width: 65%;
+   height: 4.4vw;
+   margin-left: 14%;
+
+}
+/* .img4{ 
+        padding-left: 10%;
+        width: 85%;
+        height: 85%;
+        display: none;
+}*/
+.first{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 10% 80% 10%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8.7%;
+    
+}
+.second{
+    display: grid;
+    grid: b;
+    grid-template-columns: repeat(8,minmax(2vw,1fr));
+    grid-template-rows: repeat(8,minmax(2vh,2fr)); 
+    border: 3px solid;
+    margin-left:16vw;
+    margin-right: 16vw;
+    max-width: 70%;
+    max-height: 70vw;
+    margin-right: 11vw;
+}
+h1{ 
+    border: 2px solid rgba(230, 245, 28, 0.685);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: rgba(123,23,215,0.8);
+    text-align: center;
+}
+h2{
+    font-family: cursive;
+    font-stretch: condensed;
+    color: rgba(23,12,120,0.9);
+    border: 3px solid sienna;
+    justify-content: center;
+    align-items: center;
+}
+.head2{
+    flex-grow: 1;
+    font-size: 2.5vw;
+    
+    /* width: fit-content;
+    height: fit-content;
+    font-size: 4vw;
+    grid-column-start: 1;
+    grid-column-end: 3; */
+
+    
+    /* grid-row-end: 2; */
+    /* text-align: center; */
+    /* position: relative; */
+    /* /* left: 1vw;
+    top: 25vh;
+    width: 9vw;
+    height: 10vh;
+    min-width: 68px;
+    border-top-right-radius: 20px; 
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: rgba(123,23,215,0.8); 
+    text-align: center;
+    /* border: 2px solid rgba(230, 245, 28, 0.685); */
+}
+.head3{
+    grid: c;
+    flex-grow: 1;
+    font-size: 2.5vw;
+    /* bottom: 44vh; 
+    width: 15vw;
+    margin-right: -20px;
+    margin-top: -40%;
+    text-align: right;
+    justify-content: end;
+    align-content: center;
+    margin-left: 83.5%;
+    font-size: 2vw;
+    height: fit-content;
+    color: rgba(123,23,215,0.8);
+    text-align: center;
+    border: 2px solid rgba(230, 245, 28, 0.685);
+
+
+} */
+}
+}
+
+
+@media (max-width:480px){ 
+    body{
+        color: aqua;
+        background-color: aqua;
+    }
+    .div1{ 
+    
+        /* grid-column-start: 1;
+        grid-column-end: 3; */
+        background-color: rgb(255, 255, 255);
+      
+        
+    }
+    .div2{
+        background-color: rgb(0, 0, 0);
+        /* width:7.75vw;
+        height:7.75vh; */
+        
+    }
+    .img1{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .img3{
+        /* margin: auto;
+       align-items: center;
+       align-content: center;
+       width:5.75vw;
+       height: 5.75vw;
+       margin-left: 0vw; */
+       /* border: 3px solid; */
+       width: 12vw;
+       height: 6vh;
+       margin-left: -1vw;
+    
+    }
+    /* .img4{ 
+            padding-left: 10%;
+            width: 85%;
+            height: 85%;
+            display: none;
+    }*/
+    .first{
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-rows: 10% 80% 10%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .second{
+        flex-grow: 3;
+        display: grid;
+        grid: b;
+        grid-template-columns: repeat(8,minmax(2vw,100%));
+        grid-template-rows: repeat(8,minmax(2vh,2fr)); 
+        border: 3px solid black;
+        margin-top: 5.5vh;
+        /* margin-bottom: 22.5vh; */
+        /* margin-left:16vw;
+        margin-right: 16vw;
+         */
+        /* max-width: fit-content;
+        max-height:fit-content;
+        margin-right: 11vw; */
+    }
+    h1{ 
+        border: 2px solid rgba(230, 245, 28, 0.685);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        color: rgba(123,23,215,0.8);
+        text-align: center;
+    }
+    h2{
+        font-family: cursive;
+        font-stretch: condensed;
+        color: rgba(23,12,120,0.9);
+    
+    }
+    .head2{
+        font-size: 8vw;
+        text-align: center;
+        margin-top: 10%;
+        /* border: 3px solid sienna; */
+        justify-content: center;
+        align-items: center;
+        /* width: fit-content;
+        height: fit-content;
+        font-size: 4vw;
+        grid-column-start: 1;
+        grid-column-end: 3; */
+    
+        
+        /* grid-row-end: 2; */
+        /* text-align: center; */
+        /* position: relative; */
+        /* /* left: 1vw;
+        top: 25vh;
+        width: 9vw;
+        height: 10vh;
+        min-width: 68px;
+        border-top-right-radius: 20px; 
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        color: rgba(123,23,215,0.8); 
+        text-align: center;
+        /* border: 2px solid rgba(230, 245, 28, 0.685); */
+    }
+    .head3{
+        grid: c;
+        flex-grow: 1;
+        font-size: 8vw;
+        text-align: center;
+        margin-top:7%;
+        /* bottom: 44vh; 
+        width: 15vw;
+        margin-right: -20px;
+        margin-top: -40%;
+        text-align: right;
+        justify-content: end;
+        align-content: center;
+        margin-left: 83.5%;
+        font-size: 2vw;
+        height: fit-content;
+        color: rgba(123,23,215,0.8);
+        text-align: center;
+        border: 2px solid rgba(230, 245, 28, 0.685);
+    
+    
+    } */
+    }
+    
+} 
